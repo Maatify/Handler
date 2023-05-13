@@ -9,7 +9,7 @@
 namespace Maatify\DB;
 
 use Maatify\Json\Json;
-use App\Assist\PostValidator;
+use Maatify\PostValidator\PostValidator;
 
 abstract class Model extends PDOBuilder
 {
