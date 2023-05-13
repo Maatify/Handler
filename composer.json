@@ -1,0 +1,76 @@
+{
+  "name": "maatify/handler",
+  "description": "Official PHP library for maatify.dev portal handler, known by our team",
+  "version": "1.4.0",
+  "type": "library",
+  "keywords": [
+    "PHP",
+    "JSON",
+    "Response",
+    "Handler"
+  ],
+  "homepage": "https://github.com/Maatify/",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Mohamed Abdulalim",
+      "email": "mohamed@maatify.dev",
+      "homepage": "https://www.maatify.com/",
+      "role": "Backend Developer"
+    },
+    {
+      "name": "Ahmed Fawzy",
+      "email": "a.fawzy@maatify.dev",
+      "homepage": "https://www.maatify.com/",
+      "role": "Frontend Developer"
+    },
+    {
+      "name": "Ahmed Abdullah",
+      "email": "a.abdullah@maatify.dev",
+      "homepage": "https://www.maatify.com/",
+      "role": "Android Developer"
+    },
+    {
+      "name": "Elmokhtar Ahmed",
+      "email": "mokhtar@maatify.dev",
+      "homepage": "https://www.maatify.com/",
+      "role": "IOS Developer"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.0.0"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "ext-json": "*",
+    "ext-curl": "*",
+    "ext-pdo": "*",
+    "ext-openssl": "*",
+    "ext-fileinfo": "*",
+    "ext-mysqli": "*",
+    "ext-iconv": "*",
+    "vlucas/phpdotenv": "^5.5",
+    "firebase/php-jwt": "^6.4",
+    "league/oauth2-client": "^2.6",
+    "rinvex/countries": "^8.1",
+    "maatify/logger": "^1.0",
+    "maatify/uploader": "^1.0",
+    "maatify/json": "^1.0",
+    "maatify/functions": "^1.0",
+    "maatify/google-auth": "^1.0",
+    "maatify/google-recaptcha": "^1.0",
+    "maatify/open-ssl": "^1.0",
+    "maatify/mailer": "^1.0",
+    "maatify/post-validator": "^1.0",
+    "maatify/realm": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maatify\\GovernoratesOfEgypt\\": "countries/egypt/",
+      "Maatify\\DB\\": "db-handler/",
+      "Maatify\\App\\": "app-handler/"
+    }
+  }
+}
