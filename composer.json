@@ -1,7 +1,7 @@
 {
   "name": "maatify/handler",
   "description": "Official PHP library for maatify.dev portal handler, known by our team",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "type": "library",
   "keywords": [
     "PHP",
